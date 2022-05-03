@@ -74,7 +74,7 @@ button:focus {
 .section {
     padding: 94px 0;
 }
-.information-icon-container {
+.information-section__icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@ button:focus {
 .company-name-word {
     color: var(--hover-text-color);
 }
-.information-icon {
+.information-section__icon {
     width: 70px;
     height: 70px;
 }
@@ -442,7 +442,7 @@ button:focus {
 .main-information-section > .container > .section-list {
     display: flex;
 }
-.main-information-section .section-list-item:not(:last-child) {
+.main-information-section .information-section__item:not(:last-child) {
     margin-right: 30px;
 }
 .main-information-section .section-list-header {
@@ -453,7 +453,7 @@ button:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.main-info-text {
+.information-section__text {
     min-width: 270px;
     font-weight: 400;
     font-size: 14px;
