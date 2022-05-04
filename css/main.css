@@ -460,4 +460,32 @@ button:hover, button:focus {
   margin-right: 10px;
   fill: currentColor;
 }
+
+.hero {
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.18;
+  height: 600px;
+  width: 1600px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/herobackground.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobackground.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=main.css.map */
