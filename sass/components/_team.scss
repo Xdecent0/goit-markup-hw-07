@@ -76,6 +76,10 @@
         &:focus {
             background-color: $hover-text-color;
         }
+        &:hover .social-icon,
+        &:focus .social-icon{
+            fill: $primary-background-color;
+        }
 }
 
 .social-icon {
