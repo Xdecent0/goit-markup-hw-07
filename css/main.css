@@ -852,9 +852,31 @@ button:hover, button:focus {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 30px;
-  background-color: var(--additional-background-color);
+  background-color: #f5f4fa;
   border-radius: 4px;
   width: 270px;
   height: 120px;
+}
+
+.information-section__title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.information-section__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.information-section__text {
+  min-width: 270px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 /*# sourceMappingURL=main.css.map */
