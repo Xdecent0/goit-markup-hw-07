@@ -136,7 +136,7 @@ button:focus {
     height: 16px;
 }
 
-.social-links {
+.social-link-list {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -144,10 +144,10 @@ button:focus {
     padding: 0;
 }
 
-.social-links > li {
+.social-link-list > li {
     margin-right: 10px;
 }
-.social-links > li:last-child {
+.social-link-list > li:last-child {
     margin-right: 0px;
 }
 .social-link {
