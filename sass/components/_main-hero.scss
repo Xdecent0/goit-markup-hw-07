@@ -87,9 +87,9 @@
     max-width: 100%;
     max-height: 100%;
     background: $primary-background-color;
-    box-shadow: 0px, 1px ,3px, rgba(0,0, 0, 0.12),
-    0px , 1px,  1px, rgba(0 ,0 ,0 ,0.14),
-    0px, 2px, 1px,  rgba(0 ,0 ,0 ,0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0 , 0 , .12),
+    0px 1px 1px rgba(0 ,0, 0 , .14),
+    0px 2px 1px rgba(0, 0, 0 , .2);
     border-radius: 4px;
     transition-property: transform;
     transition-duration: $animation-duration;
@@ -223,6 +223,13 @@
         border: 1px solid $hover-text-color;
         outline: none;
     }
+
+    &::placeholder {
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+    }
 }
 
 .modal-form__consent {
@@ -250,7 +257,7 @@
         border-color: transparent;
         background-color: $hover-background-color;
         fill: $primary-background-color;
-        background-image: url(./images/Modal-window/icon\check.svg);
+        background-image: url(../images/Modal-window/icon-check.svg);
         background-size: contain;
         background-origin: border-box;
     }
@@ -266,4 +273,38 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all $animation-duration $animation-function;
+}
+
+.modal-form__text-privacy {
+    font-size: 14px;
+    line-height: 1.71;
+    color: $primary-text-color;
+}
+
+.modal-form__link {
+    color: $hover-text-color;
+    text-decoration: underline;
+}
+
+.modal-form__link-button {
+    border: 1px solid transparent;
+    padding: 10px 32px;
+    min-width: 210px;
+    min-height: 50px;
+    box-shadow: 0px 4px 4px rgba(0 ,0 , 0 , .15);
+    border-radius: 4px;
+    cursor: pointer;
+    color: $primary-background-color;
+    background-color: $hover-text-color;
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    &:focus,&:hover {
+        background-color: $hover-background-color;
+    }
 }
